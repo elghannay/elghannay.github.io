@@ -1,0 +1,36 @@
+ /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+ #map {
+     height: 100%;
+     position: relative;
+ }
+
+ /* Optional: Makes the sample page fill the window. */
+
+ html, body {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+ #mapControls {
+     position: absolute;
+     top: 80px;
+     right: 0;
+ }
+
+ #mapControls button {
+     height: 40px;
+     width: 40px;
+     background-color: white;
+     outline: none;
+     border: none;
+     border-radius: 3px;
+     box-shadow: 2px 2px 5px black;
+ }
+
+ #mapControls button:hover {
+     background-color: red;
+     cursor: pointer;
+ }
